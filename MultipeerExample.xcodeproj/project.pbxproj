@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2D67FB721DD7DDD00625435 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D67FB621DD7DDD00625435 /* Data.swift */; };
 		B55AC81E2128CEDE00CE7929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55AC81D2128CEDE00CE7929 /* AppDelegate.swift */; };
 		B55AC8202128CEDE00CE7929 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55AC81F2128CEDE00CE7929 /* ViewController.swift */; };
 		B55AC8232128CEDE00CE7929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55AC8212128CEDE00CE7929 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2D67FB621DD7DDD00625435 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		B55AC81A2128CEDE00CE7929 /* MultipeerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipeerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55AC81D2128CEDE00CE7929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B55AC81F2128CEDE00CE7929 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				B55AC81D2128CEDE00CE7929 /* AppDelegate.swift */,
 				B55AC81F2128CEDE00CE7929 /* ViewController.swift */,
 				B55AC8212128CEDE00CE7929 /* Main.storyboard */,
+				A2D67FB621DD7DDD00625435 /* Data.swift */,
 				B55AC8242128CEE600CE7929 /* Assets.xcassets */,
 				B55AC8262128CEE600CE7929 /* LaunchScreen.storyboard */,
 				B55AC8292128CEE600CE7929 /* Info.plist */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55AC8202128CEDE00CE7929 /* ViewController.swift in Sources */,
+				A2D67FB721DD7DDD00625435 /* Data.swift in Sources */,
 				B55AC81E2128CEDE00CE7929 /* AppDelegate.swift in Sources */,
 				B5A383DE2149CEF6002C06BF /* Message.swift in Sources */,
 				B55AC8322128CF1900CE7929 /* MPCManager.swift in Sources */,
@@ -294,13 +298,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YY6CWUX533;
+				DEVELOPMENT_TEAM = 86J8YTL824;
 				INFOPLIST_FILE = MultipeerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.standalone.MultipeerExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arvin.MultipeerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,13 +316,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YY6CWUX533;
+				DEVELOPMENT_TEAM = 86J8YTL824;
 				INFOPLIST_FILE = MultipeerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.standalone.MultipeerExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arvin.MultipeerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
